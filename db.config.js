@@ -1,4 +1,5 @@
 const Pool = require('pg').Pool;
+// congigure db connection postgresql
 const pool = new Pool({
   user: 'postgres',
   password: '12345',
